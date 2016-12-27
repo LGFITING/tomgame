@@ -35,7 +35,7 @@ $("#znm").click(function(){
 });
 
 $("#qqppp").click(function(){
-	$('#reduce').text("转你妹");
+	$('#reduce').text("气球砰砰砰");
 	$(".gameIcon").attr("src","images/qqppp.png");
 	$("#imgOne").attr("src","images/qqppp00.png");
 	$("#imgTwo").attr("src","images/qqppp01.png");
@@ -43,7 +43,7 @@ $("#qqppp").click(function(){
 });
 
 $("#xxyw").click(function(){
-	$('#reduce').text("转你妹");
+	$('#reduce').text("小学语文");
 	$(".gameIcon").attr("src","images/xxyw.png");
 	$("#imgOne").attr("src","images/xxyw00.png");
 	$("#imgTwo").attr("src","images/xxyw01.png");
@@ -51,7 +51,7 @@ $("#xxyw").click(function(){
 });
 
 $("#ybdzz").click(function(){
-	$('#reduce').text("转你妹");
+	$('#reduce').text("月饼大作战");
 	$(".gameIcon").attr("src","images/ybdzz.png");
 	$("#imgOne").attr("src","images/ybdzz00.png");
 	$("#imgTwo").attr("src","images/ybdzz01.png");
@@ -59,7 +59,7 @@ $("#ybdzz").click(function(){
 });
 
 $("#ygdbns").click(function(){
-	$('#reduce').text("转你妹");
+	$('#reduce').text("一个都不能死");
 	$(".gameIcon").attr("src","images/ygdbns.png");
 	$("#imgOne").attr("src","images/ygdbns00.png");
 	$("#imgTwo").attr("src","images/ygdbns01.png");
