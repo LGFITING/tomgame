@@ -16,4 +16,16 @@ $("#getLeft").click(function() {
     }
     $("#imgContent").animate({ "left": change + 'px' }, 300, function() {})
 })
+$("#collapseOne").addClass("in");
+$("#accordion").on('mouseover','a',function(){
+    $("#collapseOne").removeClass("in");
+    $(this).attr("aria-expanded",true);
+    $(this).removeClass("collapsed");
+    $(this).parent().parent().siblings().addClass("in");
+})
+$("#accordion").on('mouseout','a',function(){
+    $(this).parent().parent().siblings().removeClass("in");
+    $(this).addClass("collapsed");
+})
+
 
