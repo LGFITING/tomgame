@@ -19,12 +19,15 @@
 		
 		#navigation {
 		    width: 100%;
-		    height: 74px;
+		    height: 72px;
 		    background: #fff;
+		}
+		#myTabContent{
+			margin-top: 4px;
 		}
 		
 		#myTab .actived {
-		    height: 72px;
+		    height: 70px;
 		    line-height: 72px;
 		    width: 144px;
 		}
@@ -32,12 +35,15 @@
 		.nav-tabs>li>a {
 		    margin: 0;
 		    padding: 0;
-		    height: 71px;
-		    line-height: 71px;
+		    height: 72px;
+		    line-height: 72px;
 		    text-align: center;
 		    font-size: 18px;
 		    color: #666666;
 		    border-radius: none;
+		}
+		.carousel-indicators li.active{
+
 		}
 		
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
@@ -46,7 +52,7 @@
 		}
 		
 		.nav-tabs {
-		    border-bottom: 2px solid #31c210;
+		    
 		}
 		
 		#home {
@@ -186,22 +192,34 @@
 		}
 		.carousel-control{
 		    position: absolute;
-		    top: 40%;
+		    top: 48%;
 		    left: 15px;
 		    width: 40px;
 		    height: 40px;
 		    margin-top: -20px;
 		    font-size: 60px;
 		    font-weight: 100;
-		    line-height: 30px;
+		    line-height: 24px;
 		    color: #fff;
-		    text-align: center;
+		    text-align: left;
+		    text-indent: 6px;
 		    background: #222;
 		    border: 3px solid #fff;
 		    -webkit-border-radius: 23px;
 		    -moz-border-radius: 23px;
 		    border-radius: 23px;
 		    opacity: .5;
+		}
+		.carousel-control.left{
+			left: 10px;
+		}
+		.carousel-control.right{
+			text-indent: 8px;
+			right: 10px;
+		}
+		.panel{
+			box-shadow:none;
+			-webkit-box-shadow:none;
 		}
 		.panel-body img{
 			width: 54px;
@@ -236,7 +254,7 @@
 				  font-style: normal;
 				  font-stretch: normal;
 				  line-height: 1.33;
-				  line-height: 12px;
+				  line-height: 30px;
 				  height: 12px;
 				  margin-top: -6px;
 		}
@@ -282,10 +300,21 @@
 				  font-weight: 600;
 				  font-style: normal;
 				  font-stretch: normal;
-				  line-height: 1.62;
+				  line-height: 38px;
 				  letter-spacing: 0.7px;
 				  text-align: justify;
 				  color: #333333;
+		}
+		a:hover{
+				color: #31C210;
+				text-decoration: none;
+		}
+		#accordion a{
+			text-decoration: none;
+		}
+		#accordion a:hover{
+			color: #31C210;
+			text-decoration: none;
 		}
 		.gameMsg .gameMsgfans{
 				font-size: 12px;
@@ -354,7 +383,7 @@
 		}
  	#details .gameDetails{
  		width: 730px;
- 		height: 900px;
+ 		min-height: 900px;
  		  background-color: #ffffff;
   		border: solid 1px #eeeeee;
   		padding: 24px;
